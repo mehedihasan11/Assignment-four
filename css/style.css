@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+*{margin: 0 padding 0;
+
+}
+body{
+  font-family: ;
+ 
+}
+        /* Nav Start */
+.navbar-brand img{
+  max-width: 180px;
+  padding-left: 25px;
+}
+.navbar-expand-xl .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #f2c509;
+}
+.social-list a{
+  color: #333;
+  padding-left: 25px;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+    color: #f2c509;
+}
+     /* Nav End */
+
+     /* Banner Start */
+.banner-section{
+  background: url(../images/full-moon.jpg) no-repeat center;
+  }
+.dark-overlay{
+  background: rgba(225, 225,225, 0.6); height: 60vh; min-height: 500px;
+ }
+
+.banner-section .white-overlay .row{height: 60vh; align-items: center;}
+.banner-content{}
+.banner-content h1{font-weight: 700;}
+.banner-content h1 span{color: #f2c509;}
+.banner-content h6{font-size: 12px;}
+
+        /* Banner End */
+       /* Text Area Start */
+.container {background-color: rgba(225, 225,225, 0); }
+.row{height: 60vh;align-items: center;padding: 35px;padding-left: 130px;padding-right: 130px;}
+ .row h2{padding-top: 40px;font-weight: 600;}
+.row p{padding-bottom: 65px;font-size: 13px;}
+       /* Text Area End */
+       /* Gallery Start */
+.gallery{min-height: 1050px;background-color: rgba(230, 236, 240, 0.88);}
+.card {}
+.card-body{padding: 0;}
+.card-body h4{text-align: center; font-weight: 600;}
+.card-body p{text-align: center; padding-left: 20px; padding-right: 20px;}
+    /* Gallery End */
+
+
+nav.navbar.navbar-expand-lg.navbar-light.shadow-sm.py-3 {}
